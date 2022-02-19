@@ -1,3 +1,6 @@
+body{
+  overflow: hidden;
+}
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -7,20 +10,31 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+ 
 }
-
 .header {
+  display: flex;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: #f2f2f2;
+  
   /* выше установили ограничения для секции */
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
+  display: flex;
+ flex-wrap: wrap;
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  right: 0;
+  margin-top: 64px;
+  z-index: 0;
 }
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -29,3 +43,42 @@
   margin-right: 0;
   margin-top: 80px;
 }
+.logo{
+position: absolute;
+width:183px;
+height:32px;
+padding-left:64px;
+padding-top:30px;
+}
+.header__title{
+  align-self: center;
+  padding-left:64px;
+  width: 730px;
+  font-size: 102px;
+  line-height:96px;
+  font-weight: bold;
+  z-index: 1;
+}
+.flex-row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  
+}
+.header__subtitle{
+  align-self: flex-end;
+  position: absolute;
+  width: 388px;
+  padding-left: 64px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight:normal;
+}
+.header__main-illustration{
+  position: absolute;
+   width: 765px;
+   height: 608px;
+   z-index: 1;
+ }
