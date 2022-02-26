@@ -18,7 +18,6 @@
   overflow: hidden;
   /* выше установили ограничения для секции */
 }
-
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic{
   height: 568px;
@@ -40,12 +39,6 @@
   object-fit: cover;
 }
 /* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
 .logo_place_header{
  position: absolute;
  width:183px;
@@ -271,12 +264,14 @@
   margin-bottom: 90px;
   padding-bottom: 0;
 }
-.table__cell_theme_dark{
+.table__cell_theme_dark {
   width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
   margin-bottom:0;
   padding-bottom: 0;
   padding-top: 0;
-  margin-top: 80px;
 }
 .table__heading_theme_dark{
   line-height: 1.15;
