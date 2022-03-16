@@ -7,6 +7,8 @@
   color: #2f80ed;
   text-decoration:none;
   z-index: 1;
+  transition-property: opacity, left, top, height;
+  transition-duration: 1s, 3s;
 }
 
 .khan__buy-link:hover {

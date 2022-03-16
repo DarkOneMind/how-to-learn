@@ -9,6 +9,8 @@
   text-decoration:none;
   margin: 0;
   padding: 0;
+  transition-property: opacity, left, top, height;
+  transition-duration: 1s, 3s;
 }
 
 .feynman__link:hover {

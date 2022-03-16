@@ -6,6 +6,8 @@
   text-decoration:none;
   padding: 0;
   margin: 0;
+  transition-property: opacity, left, top, height;
+  transition-duration: 1s, 3s;
 }
 
 .footer__column-link:hover {

@@ -1,6 +1,8 @@
 .header__link {
   color:#2f80ed;
   text-decoration:none;
+  transition-property: opacity, left, top, height;
+  transition-duration: 1s, 3s;
 }
 
 .header__link:hover {
